@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Google Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background-Image -->
+    <div id="background-img">
+      <img
+        class="background-img-desktop"
+        src="images/pattern-background-desktop.svg"
+        alt="Light-Bule-Curved-Line"
+      />
+    </div>
+
+    <!-- Card-Container -->
+
+    <div class="card container">
+      <img src="images/illustration-hero.svg" alt="Girl-Listening-Music" />
+      <div class="card-body">
+        <h4 class="card-title">Order Summary</h4>
+        <p class="card-text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <!-- Anual Plan Column -->
+
+        <div class="row">
+          <div class="col">
+            <img clas="music-icon" src="images/icon-music.svg" alt="" />
+          </div>
+          <div class="col anual-plan-col">
+            <h6 class="anual-plan">Annual Plan</h6>
+            <p>$59.99/year</p>
+          </div>
+          <div class="col change-link">
+            <a href="#">Change</a>
+          </div>
+        </div>
+
+        <!-- Proceed to Pay Button -->
+
+        <button class="proc-to-pay" href="#" class="btn">
+          Proceed to Payment
+        </button>
+
+        <!-- Cancel Order  -->
+
+        <p class="cancel-order">Cancel Order</p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/riyasharma0" target="_blank">Riya Sharma</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+}
+
+/* Headings */
+
+.card-title{
+    
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+
+p{
+    color:  hsl(224, 23%, 55%);
+}
+
+.background-img-desktop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1535px;    
+    
+}
+
+.container {
+   
+    width: 402px;
+    height: 570px;
+    margin-top: 80px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(88, 133, 238, 0.77);
+}
+
+.card-body{
+    margin: 20px 30px 30px;
+}
+
+/* Anual Plan Section */
+
+.row{
+    padding: 0;
+    margin: 0 0 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+.col{
+padding: 20px 0  0;
+}
+
+.anual-plan{
+  
+    font-weight: 900;
+    margin: 0;
+   
+}
+
+.anual-plan-col{
+    margin-right: 32px;
+  
+}
+
+.change-link{
+    margin-top: 10px;
+}
+
+a{
+   color: hsl(245, 75%, 52%);
+}
+
+a:hover{
+    color: hsl(215, 67%, 49%);
+}
+
+/* Proceed to Pay Button */
+
+.proc-to-pay{
+    border: 0;
+    width: 298px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: hsl(245, 75%, 52%);
+    color: whitesmoke;
+    font-weight:700;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(88, 133, 238, 0.77);
+
+}
+.proc-to-pay:hover{
+    background-color:  hsl(215, 67%, 49%);
+}
+
+/* Cancel Order Button */
+
+.cancel-order{
+    margin-top: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.cancel-order:hover{
+    color: rgba(0, 0, 0, 0.721);
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+ /* Mobile View */
+
+@media (max-width: 995px){
+    
+  .background-img-desktop{
+     display: none;
+  }
+  .container{
+    width: 300px;
+    height: 492px;
+  }
+  .card-body{
+      margin: 20px 0 0;
+  }
+  .card-text{
+    padding: 0 12px;
+  }
+  .row{
+      margin-bottom: 12px;
+  }
+  .col{
+    padding: 20px 0 10px;
+  }
+  .change-link{
+    margin: 0;
+    padding-top: 27px;
+  }
+  .anual-plan{
+    font-size: 13px
+  }
+ .proc-to-pay{
+    width: 267px;
+  }
+ .cancel-order{
+    margin: 16px 0;
+  }
+
+}
